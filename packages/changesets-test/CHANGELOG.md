@@ -1,5 +1,11 @@
 # alextim-changesets-test
 
+## 1.1.0
+
+### Minor Changes
+
+- b30b069: fix: test
+
 ## 1.0.5
 
 ### Patch Changes
