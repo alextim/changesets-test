@@ -1,0 +1,12 @@
+{
+  "name": "changesets-utils",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

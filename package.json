@@ -1,11 +1,10 @@
 {
-  "name": "changesets-test",
-  "version": "1.0.0",
+  "name": "root",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "release": "changeset publish",
-    "version": "changeset version && pnpm install --no-frozen-lockfile"    
+    "version": "changeset version && pnpm install --no-frozen-lockfile"
   },
   "keywords": [],
   "author": "",
@@ -14,8 +13,7 @@
     "@changesets/changelog-github": "^0.4.4",
     "@changesets/cli": "^2.22.0"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  }  
+  "workspaces": [
+    "packages/*"
+  ]
 }
