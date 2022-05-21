@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
+    "changeset": "changeset",
     "release": "changeset publish",
     "version": "changeset version && pnpm install --no-frozen-lockfile"
   },
