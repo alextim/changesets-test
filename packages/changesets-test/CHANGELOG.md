@@ -1,5 +1,11 @@
 # alextim-changesets-test
 
+## 1.1.1
+
+### Patch Changes
+
+- 08481cf: fix: 1
+
 ## 1.1.0
 
 ### Minor Changes
