@@ -5,6 +5,13 @@
   "main": "index.js",
   "scripts": {
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alextim/changesets-test.git",
+    "directory": "packages/changesets-test"
+  },
+  "homepage": "https://github.com/alextim/changesets-test/tree/main/packages/changesets-test/#readme",
+  "bugs": "https://github.com/alextim/changesets-test/issues",
   "keywords": [],
   "author": "",
   "license": "MIT",
