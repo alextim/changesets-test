@@ -1,5 +1,11 @@
 # alextim-changesets-test
 
+## 1.0.4
+
+### Patch Changes
+
+- 28da5a3: feat: 4
+
 ## 1.0.3
 
 ### Patch Changes
