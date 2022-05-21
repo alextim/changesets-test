@@ -59,7 +59,7 @@ jobs:
           # Note: pnpm install after versioning is necessary to refresh lockfile
           version: pnpm run version
           publish: pnpm exec changeset publish
-          commit: Version release
+          # commit: Version release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
