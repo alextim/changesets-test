@@ -11,9 +11,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Lint can run in parallel with Build.
   lint:
-    name: Lint
+    name: Release
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -28,8 +27,10 @@ jobs:
           node-version: 16
 
       - name: Setup PNPM
+        id: pnpm-install
         uses: pnpm/action-setup@v2.2.1
         with:
+          version: 7
           run_install: false
 
       - name: Get pnpm store directory
